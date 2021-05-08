@@ -1,12 +1,13 @@
 {
     "name": "americana",
-    "version" : "0.0.1",
+    "version": "0.0.1",
     "description": "If multiplayer EU4 were made by one guy and in colonial America =)",
-    "main" : "server.js",
+    "main": "server.js",
     "dependencies": {
         "express": "^4.17.1",
         "jquery": "^3.6.0",
         "jsdom": "^16.5.3",
+        "mongodb": "^3.6.6",
         "socket.io": "^4.0.2"
     }
 }

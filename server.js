@@ -19,7 +19,7 @@ server.listen(PORT, () => console.log(`Listening on ${PORT}`));
 const io = socketIO(server);
 
 io.on('connection', socket => {
-    //socket.on('user-enter', msg => {
+    socket.on('user-enter', msg => {
         console.log(socket.id + " connected");
-    //});
+    });
 });
